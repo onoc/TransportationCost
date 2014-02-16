@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //日付の挿入
+    NSDate *now = [NSDate date];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy/MM/dd HH:mm:ss"];
+
+    //画面に出力
+    self.applicationDate.text = [formatter stringFromDate:now];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +35,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)record:(id)sender {
+}
 @end

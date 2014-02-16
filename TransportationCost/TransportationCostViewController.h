@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface TransportationCostViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *applicationDate;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *means;
+@property (weak, nonatomic) IBOutlet UITextField *departure;
+@property (weak, nonatomic) IBOutlet UITextField *destination;
+@property (weak, nonatomic) IBOutlet UITextField *cost;
+@property (weak, nonatomic) IBOutlet UILabel *message;
 
+- (IBAction)record:(id)sender;
 @end

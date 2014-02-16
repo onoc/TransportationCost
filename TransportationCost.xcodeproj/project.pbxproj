@@ -21,6 +21,7 @@
 		9719C78D18AF9473004DF090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719C76F18AF9472004DF090 /* UIKit.framework */; };
 		9719C79518AF9473004DF090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9719C79318AF9473004DF090 /* InfoPlist.strings */; };
 		9719C79718AF9473004DF090 /* TransportationCostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719C79618AF9473004DF090 /* TransportationCostTests.m */; };
+		9719C80018B0ED1D004DF090 /* fu01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9719C7FF18B0ED1D004DF090 /* fu01.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9719C79218AF9473004DF090 /* TransportationCostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransportationCostTests-Info.plist"; sourceTree = "<group>"; };
 		9719C79418AF9473004DF090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9719C79618AF9473004DF090 /* TransportationCostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransportationCostTests.m; sourceTree = "<group>"; };
+		9719C7FF18B0ED1D004DF090 /* fu01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fu01.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		9719C77118AF9472004DF090 /* TransportationCost */ = {
 			isa = PBXGroup;
 			children = (
+				9719C7FF18B0ED1D004DF090 /* fu01.jpg */,
 				9719C77A18AF9472004DF090 /* TransportationCostAppDelegate.h */,
 				9719C77B18AF9472004DF090 /* TransportationCostAppDelegate.m */,
 				9719C77D18AF9472004DF090 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				9719C78418AF9472004DF090 /* Images.xcassets in Resources */,
 				9719C77618AF9472004DF090 /* InfoPlist.strings in Resources */,
+				9719C80018B0ED1D004DF090 /* fu01.jpg in Resources */,
 				9719C77F18AF9472004DF090 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
