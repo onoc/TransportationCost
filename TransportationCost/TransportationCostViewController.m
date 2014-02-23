@@ -36,5 +36,25 @@
 }
 
 - (IBAction)record:(id)sender {
+    //乗り物を取得
+    NSInteger meansIndex = self.means.selectedSegmentIndex;
+    
+    //選択された値によって文字列を設定
+    NSString *meansName;
+    switch (meansIndex) {
+        case 0:
+            meansName = @"電車";
+        case 1:
+            meansName = @"バス";
+        case 2:
+            meansName = @"タクシー";
+        default:
+            break;
+    }
+    
+    //出発地と目的地を取得
+    self.message.text = [NSString stringWithFormat:@"%@ 〜 %@：%@円で登録しました。"
+                         ,self.departure.text,self.destination.text,self.cost.text];
+    
 }
 @end
